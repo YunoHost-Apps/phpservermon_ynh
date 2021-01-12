@@ -1,3 +1,29 @@
+Todo 
+
+php depend 
+PHP Extensions (modules)
+
+    ext-curl
+    ext-ctype
+    ext-filter
+    ext-hash
+    ext-json
+    ext-libxml
+    ext-openssl
+    ext-pdo
+    ext-pcre
+    ext-sockets
+    ext-xml
+
+Readme
+readme.fr
+fichier de conf sql dans install
+backup, restore, upgrade , change url
+
+
+
+
+
 # App exemple pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.maintain.svg)  
