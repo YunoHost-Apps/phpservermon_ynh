@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#gerer config file au backup cf install cf ynh_backup_if_checksum_is_different
+
+
 #=================================================
 # GENERIC START
 #=================================================

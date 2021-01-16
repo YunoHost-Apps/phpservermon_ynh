@@ -1,19 +1,3 @@
-Todo 
-
-php depend 
-PHP Extensions (modules)
-
-    ext-curl
-    ext-ctype
-    ext-filter
-    ext-hash
-    ext-json
-    ext-libxml
-    ext-openssl
-    ext-pdo
-    ext-pcre
-    ext-sockets
-    ext-xml
 
 Readme
 readme.fr
@@ -22,26 +6,26 @@ backup, restore, upgrade , change url
 
 
 
+# PHP Server Monitor pour YunoHost
 
-
-# App exemple pour YunoHost
-
-[![Niveau d'intégration](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.maintain.svg)  
-[![Installer REPLACEBYYOURAPP avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=REPLACEBYYOURAPP)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/phpservermon.svg)](https://dash.yunohost.org/appci/app/phpservermon) ![](https://ci-apps.yunohost.org/ci/badges/phpservermon.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/phpservermon.maintain.svg)  
+[![Installer phpservermon avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpservermon)
 
 *[Read this readme in english.](./README.md)* 
 
-> *Ce package vous permet d'installer REPLACEBYYOURAPP rapidement et simplement sur un serveur YunoHost.  
+> *Ce package vous permet d'installer PHP Server Monitor rapidement et simplement sur un serveur YunoHost.  
 Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
 
 ## Vue d'ensemble
-Description rapide de cette application.
 
-**Version incluse :** 1.0
+PHP Server Monitor est une application qui contrôle que vos serveurs et site web soient fonctionnels.
+
+**Version incluse :** 3.5.2
 
 ## Captures d'écran
 
-![](Lien vers une capture d'écran de cette application.)
+![](images/screenshot.png)
+
 
 ## Démo
 
