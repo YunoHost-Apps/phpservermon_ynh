@@ -1,11 +1,3 @@
-
-Readme
-readme.fr
-fichier de conf sql dans install
-backup, restore, upgrade , change url
-
-
-
 # PHP Server Monitor pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/phpservermon.svg)](https://dash.yunohost.org/appci/app/phpservermon) ![](https://ci-apps.yunohost.org/ci/badges/phpservermon.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/phpservermon.maintain.svg)  
@@ -26,60 +18,44 @@ PHP Server Monitor est une application qui contrôle que vos serveurs et site we
 
 ![](images/screenshot.png)
 
-
-## Démo
-
-* [Démo officielle](Lien vers un site de démonstration de cette application.)
-
-## Configuration
-
-Comment configurer cette application : via le panneau d'administration, un fichier brut en SSH ou tout autre moyen.
-
 ## Documentation
 
- * Documentation officielle : Lien vers la documentation officielle de cette application.
- * Documentation YunoHost : Si une documentation spécifique est nécessaire, n'hésitez pas à contribuer.
+ * Documentation officielle : http://www.phpservermonitor.org/
+ * Dépot de l'application : https://github.com/phpservermon/phpservermon/
+
 
 ## Caractéristiques spécifiques YunoHost
 
 #### Support multi-utilisateur
 
-* L'authentification LDAP et HTTP est-elle prise en charge ?
-* L'application peut-elle être utilisée par plusieurs utilisateurs ?
+* L'application ne supporte pas le SSO/LDAP.
+* L'application peut être utilisées par plusieurs utilisateurs.
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/REPLACEBYYOURAPP%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/REPLACEBYYOURAPP%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/phpservermon%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/phpservermon/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/phpservermon%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/phpservermon/)
 
 ## Limitations
 
-* Limitations connues.
-
-## Informations additionnelles
-
-* Autres informations que vous souhaitez ajouter sur cette application.
-
-**Plus d'informations sur la page de documentation :**  
-https://yunohost.org/packaging_apps
+* SSO non supporté
 
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/issues
- * Site de l'application : Lien vers le site officiel de cette application.
- * Dépôt de l'application principale : Lien vers le dépôt officiel de l'application principale.
+ * Signaler un bug : https://github.com/YunoHost-Apps/phpservermon_ynh/issues
+ * Site de l'application : http://www.phpservermonitor.org/
+ * Dépôt de l'application principale : https://github.com/phpservermon/phpservermon/.
  * Site web YunoHost : https://yunohost.org/
 
----
 
 ## Informations pour les développeurs
 
-**Seulement si vous voulez utiliser une branche de test pour le codage, au lieu de fusionner directement dans la banche principale.**
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing).
+
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/phpservermon/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/phpservermon/tree/testing --debug
 ou
-sudo yunohost app upgrade REPLACEBYYOURAPP -u https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app upgrade phpservermon -u https://github.com/YunoHost-Apps/phpservermon/tree/testing --debug
 ```
