@@ -3,8 +3,8 @@
     "id": "phpservermon",
     "packaging_format": 1,
     "description": {
-        "en": "PHP Server Monitor is a script that checks whether your websites and servers are up and running",
-        "fr": "PHP Server Monitor est un application pour vérifier que vos sites web et serveurs fonctionnent"
+        "en": "$app is a script that checks whether your websites and servers are up and running",
+        "fr": "$app est un application pour vérifier que vos sites web et serveurs fonctionnent"
     },
     "version": "3.5.2~ynh1",
     "url": "www.phpservermonitor.org",
@@ -51,6 +51,10 @@
                     "en": "Is it a public application?",
                     "fr": "Est-ce une application publique ?"
                 },
+                "help": {
+                    "en": "If app is not public, only Yunohost User can acces to it",
+                    "fr": "Si l'application n'est pas publique, seul les utilisateurs de Yunohost y auront accés"
+                 },
                 "default": true
             }
             
