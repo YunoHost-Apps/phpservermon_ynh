@@ -107,7 +107,7 @@ ynh_add_fpm_config
 ynh_backup_if_checksum_is_different --file="$final_path/config.php"
 
 # Recalculate and store the checksum of the file for the next upgrade.
-ynh_store_file_checksum --file="$final_path/CONFIG_FILE"
+ynh_store_file_checksum --file="$final_path/config.php"
 
 #=================================================
 # GENERIC FINALIZATION
