@@ -161,7 +161,7 @@ cp -a $final_path/config.php.sample $final_path/config.php
 ynh_replace_string --match_string="db_user" --replace_string=$db_user --target_file="$final_path/config.php"
 ynh_replace_string --match_string="db_pass" --replace_string=$db_pwd --target_file="$final_path/config.php"
 ynh_replace_string --match_string="db_name" --replace_string=$db_name --target_file="$final_path/config.php"
-ynh_replace_string --match_string='PSM_BASE_URL', '' --replace_string='PSM_BASE_URL',$path_url --target_file="$final_path/config.php"
+ynh_replace_string --match_string="'PSM_BASE_URL', ''" --replace_string="'PSM_BASE_URL', '$path_url'" --target_file="$final_path/config.php"
 #=================================================
 # STORE THE CONFIG FILE CHECKSUM
 #=================================================
