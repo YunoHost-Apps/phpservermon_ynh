@@ -88,6 +88,8 @@ then
 	path_url="$new_path"
 	# Create a dedicated NGINX config
 	ynh_add_nginx_config
+	# Change config file
+	ynh_replace_string --match_string="'PSM_BASE_URL', '.*'" --replace_string="'PSM_BASE_URL', '$path_url'" --target_file="$final_path/config.php"
 fi
 
 # Change the domain for NGINX
