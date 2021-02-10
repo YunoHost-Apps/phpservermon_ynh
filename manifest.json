@@ -6,7 +6,7 @@
         "en": "$app is a script that checks whether your websites and servers are up and running",
         "fr": "$app est un application pour vérifier que vos sites web et serveurs fonctionnent"
     },
-    "version": "3.5.2~ynh3",
+    "version": "3.5.2~ynh4",
     "url": "www.phpservermonitor.org",
     "license": "GPL-3.0-or-later",
     "maintainer": {
