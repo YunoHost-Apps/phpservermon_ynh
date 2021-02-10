@@ -92,6 +92,13 @@ ynh_script_progression --message="Reinstalling dependencies..."  --weight=1
 ynh_install_app_dependencies $pkg_dependencies
 
 #=================================================
+# RESTORE THE CRON FILE
+#=================================================
+
+ynh_restore_file --origin_path="/etc/cron.d/$app"
+
+
+#=================================================
 # RESTORE THE MYSQL DATABASE
 #=================================================
 ynh_script_progression --message="Restoring the MySQL database..."  --weight=1

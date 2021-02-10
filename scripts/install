@@ -162,6 +162,20 @@ ynh_replace_string --match_string="db_user" --replace_string=$db_user --target_f
 ynh_replace_string --match_string="db_pass" --replace_string=$db_pwd --target_file="$final_path/config.php"
 ynh_replace_string --match_string="db_name" --replace_string=$db_name --target_file="$final_path/config.php"
 ynh_replace_string --match_string="'PSM_BASE_URL', ''" --replace_string="'PSM_BASE_URL', '$path_url'" --target_file="$final_path/config.php"
+
+#=================================================
+# ADD A CRON JOB
+#=================================================
+
+cron_path="/etc/cron.d/$app"
+cp -a ../conf/phpservermon.cron "$cron_path"
+chown root: "$cron_path"
+chmod 644 "$cron_path"
+
+ynh_replace_string --match_string="__USER__" --replace_string="$app" --target_file="$cron_path"
+ynh_replace_string --match_string="__DESTDIR__" --replace_string="$final_path" --target_file="$cron_path"
+ynh_replace_string --match_string="__YNH_PHP_VERSION__" --replace_string="$phpversion" --target_file="$cron_path"
+
 #=================================================
 # STORE THE CONFIG FILE CHECKSUM
 #=================================================
