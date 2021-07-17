@@ -1,0 +1,9 @@
+<?php
+define('PSM_DB_PREFIX', 'monitor_');
+define('PSM_DB_USER', '__DB_NAME__');
+define('PSM_DB_PASS', '__DB_PWD__');
+define('PSM_DB_NAME', '__DB_NAME__');
+define('PSM_DB_HOST', 'localhost');
+define('PSM_DB_PORT', '3306'); //3306 is the default port for MySQL. If no specfic port is used, leave it empty.
+define('PSM_BASE_URL', '__PATH__');
+define('PSM_WEBCRON_KEY', '');
