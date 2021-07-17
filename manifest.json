@@ -3,8 +3,8 @@
     "id": "phpservermon",
     "packaging_format": 1,
     "description": {
-        "en": "$app is a script that checks whether your websites and servers are up and running",
-        "fr": "$app est un application pour vérifier que vos sites web et serveurs fonctionnent"
+        "en": "Script that checks whether your websites and servers are up and running",
+        "fr": "Application pour vérifier que vos sites web et serveurs fonctionnent"
     },
     "version": "3.5.2~ynh4",
     "url": "www.phpservermonitor.org",
