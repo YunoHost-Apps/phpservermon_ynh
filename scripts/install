@@ -101,7 +101,7 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 # MODIFY A CONFIG FILE
 #=================================================
 
-ynh_add_config --template="$final_path/config.php.sample" --destination="$final_path/config.php"
+ynh_add_config --template="../conf/config.php.sample" --destination="$final_path/config.php"
 chmod 400 "$final_path/config.php"
 chown $app "$final_path/config.php"
 
