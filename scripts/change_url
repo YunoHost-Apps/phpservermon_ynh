@@ -24,7 +24,7 @@ app=$YNH_APP_INSTANCE_NAME
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_script_progression --message="Loading installation settings..."  --weight=1
+ynh_script_progression --message="Loading installation settings..." --weight=1
 
 # Needed for helper "ynh_add_nginx_config"
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
@@ -37,7 +37,7 @@ db_pwd=$(ynh_app_setting_get --app=$app --key=db_pwd)
 #=================================================
 # BACKUP BEFORE UPGRADE THEN ACTIVE TRAP
 #=================================================
-ynh_script_progression --message="Backing up the app before changing its URL (may take a while)..." --time --weight=1
+ynh_script_progression --message="Backing up the app before changing its URL (may take a while)..." --weight=1
 
 # Backup the current version of the app
 ynh_backup_before_upgrade
@@ -101,11 +101,9 @@ then
 fi
 
 #=================================================
-# GENERIC FINALISATION
-#=================================================
-#=================================================
 # Update Config file
 #=================================================
+
 if [ $change_path -eq 1 ]
 then
 	# Update config file
@@ -113,14 +111,12 @@ then
 	#replace checksum
 	ynh_delete_file_checksum --file="$final_path/config.php"
 	ynh_store_file_checksum --file="$final_path/config.php"
-
 fi
-
 
 #=================================================
 # RELOAD NGINX
 #=================================================
-ynh_script_progression --message="Reloading NGINX web server..."  --weight=1
+ynh_script_progression --message="Reloading NGINX web server..." --weight=1
 
 ynh_systemd_action --service_name=nginx --action=reload
 
@@ -128,4 +124,4 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Change of URL completed for $app" --time --last
+ynh_script_progression --message="Change of URL completed for $app" --last

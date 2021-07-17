@@ -1,61 +1,51 @@
 # PHP Server Monitor pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/phpservermon.svg)](https://dash.yunohost.org/appci/app/phpservermon) ![](https://ci-apps.yunohost.org/ci/badges/phpservermon.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/phpservermon.maintain.svg)  
-[![Installer phpservermon avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpservermon)
+[![Installer PHP Server Monitor avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpservermon)
 
-*[Read this readme in english.](./README.md)* 
+*[Read this readme in english.](./README.md)*
+*[Lire ce readme en français.](./README_fr.md)*
 
-> *Ce package vous permet d'installer PHP Server Monitor rapidement et simplement sur un serveur YunoHost.  
-Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
+> *Ce package vous permet d'installer PHP Server Monitor rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
-PHP Server Monitor est une application qui contrôle que vos serveurs et site web soient fonctionnels.
+Application pour vérifier que vos sites web et serveurs fonctionnent
 
-**Version incluse :** 3.5.2
+**Version incluse :** 3.5.2~ynh4
+
+
 
 ## Captures d'écran
 
-![](images/screenshot.png)
+![](./doc/screenshots/screenshot.png)
 
-## Documentation
-
- * Documentation officielle : http://www.phpservermonitor.org/
- * Dépot de l'application : https://github.com/phpservermon/phpservermon/
-
-
-## Caractéristiques spécifiques YunoHost
+## Avertissements / informations importantes
 
 #### Support multi-utilisateur
 
 * L'application ne supporte pas le SSO/LDAP.
 * L'application peut être utilisées par plusieurs utilisateurs.
 
-#### Architectures supportées
+## Documentations et ressources
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/phpservermon%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/phpservermon/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/phpservermon%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/phpservermon/)
-
-## Limitations
-
-* SSO non supporté
-
-## Liens
-
- * Signaler un bug : https://github.com/YunoHost-Apps/phpservermon_ynh/issues
- * Site de l'application : http://www.phpservermonitor.org/
- * Dépôt de l'application principale : https://github.com/phpservermon/phpservermon/.
- * Site web YunoHost : https://yunohost.org/
-
+* Site officiel de l'app : www.phpservermonitor.org
+* Documentation officielle utilisateur : https://yunohost.org/apps
+* Documentation officielle de l'admin : http://docs.phpservermonitor.org/en/latest/
+* Dépôt de code officiel de l'app : https://github.com/phpservermon/phpservermon/
+* Documentation YunoHost pour cette app : https://yunohost.org/app_phpservermon
+* Signaler un bug : https://github.com/YunoHost-Apps/phpservermon_ynh/issues
 
 ## Informations pour les développeurs
 
-
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/phpservermon/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/phpservermon_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/phpservermon/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/phpservermon_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade phpservermon -u https://github.com/YunoHost-Apps/phpservermon/tree/testing --debug
+sudo yunohost app upgrade phpservermon -u https://github.com/YunoHost-Apps/phpservermon_ynh/tree/testing --debug
 ```
+
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps
