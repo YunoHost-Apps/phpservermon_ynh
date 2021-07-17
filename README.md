@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-$app is a script that checks whether your websites and servers are up and running
+Script that checks whether your websites and servers are up and running
 
 **Shipped version:** 3.5.2~ynh4
 

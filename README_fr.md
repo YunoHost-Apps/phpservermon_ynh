@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-$app est un application pour vérifier que vos sites web et serveurs fonctionnent
+Application pour vérifier que vos sites web et serveurs fonctionnent
 
 **Version incluse :** 3.5.2~ynh4
 
