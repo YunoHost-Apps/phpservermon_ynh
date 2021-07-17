@@ -56,9 +56,8 @@ ynh_remove_fpm_config
 #=================================================
 # REMOVE THE CRON FILE
 #=================================================
+ynh_script_progression --message="Removing cron file..." --weight=1
 
-# Remove a cron file
-# TODO: Ensure that cron job is not running (How !?)
 ynh_secure_remove --file="/etc/cron.d/$app"
 
 #=================================================
