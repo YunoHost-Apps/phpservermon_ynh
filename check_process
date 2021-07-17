@@ -3,7 +3,6 @@
 		domain="domain.tld"
 		path="/path"
 		is_public=1
-		password="pass"
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1
@@ -22,4 +21,4 @@ Notification=none
 ;;; Upgrade options
 	; commit=c6a24587ffb139197d6cb5ef83604f4d5d77b1e9
 		name=add new ligne before EOF...
-		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&language=fr&is_public=1&password=pass&port=666&
+		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&language=fr&is_public=1&

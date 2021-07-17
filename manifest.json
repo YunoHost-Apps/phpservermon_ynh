@@ -47,8 +47,8 @@
                 "name": "is_public",
                 "type": "boolean",
                 "help": {
-                    "en": "If app is not public, only Yunohost User can acces to it",
-                    "fr": "Si l'application n'est pas publique, seul les utilisateurs de Yunohost y auront accés"
+                    "en": "If the app is not public, only YunoHost users will have access to it",
+                    "fr": "Si l'application n'est pas publique, seul les utilisateurs de YunoHost y auront accés"
                  },
                 "default": true
             }
