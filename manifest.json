@@ -6,13 +6,12 @@
         "en": "Script that checks whether your websites and servers are up and running",
         "fr": "Application pour vérifier que vos sites web et serveurs fonctionnent"
     },
-    "version": "3.5.2~ynh4",
+    "version": "3.5.2~ynh5",
     "url": "www.phpservermonitor.org",
     "upstream": {
         "license": "GPL-3.0-or-later",
         "website": "www.phpservermonitor.org",
         "admindoc": "http://docs.phpservermonitor.org/en/latest/",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/phpservermon/phpservermon/"
     },
     "license": "GPL-3.0-or-later",
@@ -22,7 +21,7 @@
         "url": ""
     },
     "requirements": {
-        "yunohost": ">= 4.2.4"
+        "yunohost": ">= 4.3.0"
     },
     "multi_instance": true,
     "services": [
@@ -34,8 +33,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
