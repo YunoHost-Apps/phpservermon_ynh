@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Application pour vérifier que vos sites web et serveurs fonctionnent
 
-**Version incluse :** 3.5.2~ynh4
+**Version incluse :** 3.5.2~ynh5
 
 
 
@@ -31,7 +31,6 @@ Application pour vérifier que vos sites web et serveurs fonctionnent
 ## Documentations et ressources
 
 * Site officiel de l'app : www.phpservermonitor.org
-* Documentation officielle utilisateur : https://yunohost.org/apps
 * Documentation officielle de l'admin : http://docs.phpservermonitor.org/en/latest/
 * Dépôt de code officiel de l'app : https://github.com/phpservermon/phpservermon/
 * Documentation YunoHost pour cette app : https://yunohost.org/app_phpservermon
