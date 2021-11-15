@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Script that checks whether your websites and servers are up and running
 
-**Shipped version:** 3.5.2~ynh4
+**Shipped version:** 3.5.2~ynh5
 
 
 
@@ -35,7 +35,6 @@ Script that checks whether your websites and servers are up and running
 ## Documentation and resources
 
 * Official app website: www.phpservermonitor.org
-* Official user documentation: https://yunohost.org/apps
 * Official admin documentation: http://docs.phpservermonitor.org/en/latest/
 * Upstream app code repository: https://github.com/phpservermon/phpservermon/
 * YunoHost documentation for this app: https://yunohost.org/app_phpservermon
