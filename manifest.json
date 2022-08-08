@@ -13,7 +13,8 @@
         "website": "www.phpservermonitor.org",
         "admindoc": "http://docs.phpservermonitor.org/en/latest/",
         "userdoc": "https://yunohost.org/apps",
-        "code": "https://github.com/phpservermon/phpservermon/"
+        "code": "https://github.com/phpservermon/phpservermon/",
+        "cpe": "cpe:2.3:a:phpservermonitor:php_server_monitor"
     },
     "license": "GPL-3.0-or-later",
     "maintainer": {
@@ -31,7 +32,7 @@
         "mysql"
     ],
     "arguments": {
-        "install" : [
+        "install": [
             {
                 "name": "domain",
                 "type": "domain",
@@ -43,16 +44,15 @@
                 "example": "/phpservermon",
                 "default": "/phpservermon"
             },
-                        {
+            {
                 "name": "is_public",
                 "type": "boolean",
                 "help": {
                     "en": "If the app is not public, only YunoHost users will have access to it",
                     "fr": "Si l'application n'est pas publique, seul les utilisateurs de YunoHost y auront accés"
-                 },
+                },
                 "default": true
             }
-            
         ]
     }
 }
