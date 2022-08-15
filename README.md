@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Script that checks whether your websites and servers are up and running
 
-**Shipped version:** 3.5.2~ynh5
+**Shipped version:** 3.5.2~ynh6
 
 
 ## Screenshots
