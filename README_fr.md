@@ -17,7 +17,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Application pour vérifier que vos sites web et serveurs fonctionnent
 
-**Version incluse :** 3.5.2~ynh6
+**Version incluse :** 3.5.2~ynh5
 
 
 ## Captures d'écran
