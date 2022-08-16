@@ -34,6 +34,7 @@ Script that checks whether your websites and servers are up and running
 ## Documentation and resources
 
 * Official app website: <www.phpservermonitor.org>
+* Official user documentation: <https://yunohost.org/apps>
 * Official admin documentation: <http://docs.phpservermonitor.org/en/latest/>
 * Upstream app code repository: <https://github.com/phpservermon/phpservermon/>
 * YunoHost documentation for this app: <https://yunohost.org/app_phpservermon>

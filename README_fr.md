@@ -34,6 +34,7 @@ Application pour vérifier que vos sites web et serveurs fonctionnent
 ## Documentations et ressources
 
 * Site officiel de l'app : <www.phpservermonitor.org>
+* Documentation officielle utilisateur : <https://yunohost.org/apps>
 * Documentation officielle de l'admin : <http://docs.phpservermonitor.org/en/latest/>
 * Dépôt de code officiel de l'app : <https://github.com/phpservermon/phpservermon/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_phpservermon>
