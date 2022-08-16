@@ -6,7 +6,7 @@
         "en": "Script that checks whether your websites and servers are up and running",
         "fr": "Application pour vérifier que vos sites web et serveurs fonctionnent"
     },
-    "version": "3.5.2~ynh6",
+    "version": "3.5.2~ynh5",
     "url": "www.phpservermonitor.org",
     "upstream": {
         "license": "GPL-3.0-or-later",
