@@ -6,7 +6,7 @@
         "en": "Script that checks whether your websites and servers are up and running",
         "fr": "Application pour vérifier que vos sites web et serveurs fonctionnent"
     },
-    "version": "3.5.2~ynh4",
+    "version": "3.5.2~ynh6",
     "url": "www.phpservermonitor.org",
     "upstream": {
         "license": "GPL-3.0-or-later",
@@ -23,20 +23,19 @@
         "url": ""
     },
     "requirements": {
-        "yunohost": ">= 4.2.4"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm",
+        "php7.4-fpm",
         "mysql"
     ],
     "arguments": {
         "install": [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
