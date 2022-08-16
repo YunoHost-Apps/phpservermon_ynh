@@ -6,14 +6,15 @@
         "en": "Script that checks whether your websites and servers are up and running",
         "fr": "Application pour vérifier que vos sites web et serveurs fonctionnent"
     },
-    "version": "3.5.2~ynh4",
+    "version": "3.5.2~ynh5",
     "url": "www.phpservermonitor.org",
     "upstream": {
         "license": "GPL-3.0-or-later",
         "website": "www.phpservermonitor.org",
         "admindoc": "http://docs.phpservermonitor.org/en/latest/",
         "userdoc": "https://yunohost.org/apps",
-        "code": "https://github.com/phpservermon/phpservermon/"
+        "code": "https://github.com/phpservermon/phpservermon/",
+        "cpe": "cpe:2.3:a:phpservermonitor:php_server_monitor"
     },
     "license": "GPL-3.0-or-later",
     "maintainer": {
@@ -22,20 +23,19 @@
         "url": ""
     },
     "requirements": {
-        "yunohost": ">= 4.2.4"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.3-fpm",
+        "php7.4-fpm",
         "mysql"
     ],
     "arguments": {
-        "install" : [
+        "install": [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
@@ -43,16 +43,15 @@
                 "example": "/phpservermon",
                 "default": "/phpservermon"
             },
-                        {
+            {
                 "name": "is_public",
                 "type": "boolean",
                 "help": {
                     "en": "If the app is not public, only YunoHost users will have access to it",
                     "fr": "Si l'application n'est pas publique, seul les utilisateurs de YunoHost y auront accés"
-                 },
+                },
                 "default": true
             }
-            
         ]
     }
 }
