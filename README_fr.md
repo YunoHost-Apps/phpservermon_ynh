@@ -5,24 +5,24 @@ It shall NOT be edited by hand.
 
 # PHP Server Monitor pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/phpservermon.svg)](https://dash.yunohost.org/appci/app/phpservermon) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phpservermon.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phpservermon.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/phpservermon.svg)](https://dash.yunohost.org/appci/app/phpservermon) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phpservermon.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phpservermon.maintain.svg)
+
 [![Installer PHP Server Monitor avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpservermon)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer PHP Server Monitor rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer PHP Server Monitor rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Application pour vérifier que vos sites web et serveurs fonctionnent
 
-**Version incluse :** 3.5.2~ynh5
+**Version incluse :** 3.5.2~ynh5
 
+## Captures d’écran
 
-## Captures d'écran
-
-![Capture d'écran de PHP Server Monitor](./doc/screenshots/screenshot.png)
+![Capture d’écran de PHP Server Monitor](./doc/screenshots/screenshot.png)
 
 ## Avertissements / informations importantes
 
@@ -33,10 +33,9 @@ Application pour vérifier que vos sites web et serveurs fonctionnent
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <www.phpservermonitor.org>
-* Documentation officielle utilisateur : <https://yunohost.org/apps>
-* Documentation officielle de l'admin : <http://docs.phpservermonitor.org/en/latest/>
-* Dépôt de code officiel de l'app : <https://github.com/phpservermon/phpservermon/>
+* Site officiel de l’app : <www.phpservermonitor.org>
+* Documentation officielle de l’admin : <http://docs.phpservermonitor.org/en/latest/>
+* Dépôt de code officiel de l’app : <https://github.com/phpservermon/phpservermon/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_phpservermon>
 * Signaler un bug : <https://github.com/YunoHost-Apps/phpservermon_ynh/issues>
 
@@ -52,4 +51,4 @@ ou
 sudo yunohost app upgrade phpservermon -u https://github.com/YunoHost-Apps/phpservermon_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
