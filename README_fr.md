@@ -26,10 +26,10 @@ Application pour vérifier que vos sites web et serveurs fonctionnent
 
 ## Avertissements / informations importantes
 
-#### Support multi-utilisateur
+#### Multi-user support
 
-* L'application ne supporte pas le SSO/LDAP.
-* L'application peut être utilisées par plusieurs utilisateurs.
+* LDAP and HTTP auth are not supported.
+* The app can be used by multiple users.
 
 ## Documentations et ressources
 
