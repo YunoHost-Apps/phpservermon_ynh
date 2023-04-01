@@ -16,20 +16,13 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Application pour vérifier que vos sites web et serveurs fonctionnent
+Script that checks whether your websites and servers are up and running
 
 **Version incluse :** 3.5.2~ynh5
 
 ## Captures d’écran
 
 ![Capture d’écran de PHP Server Monitor](./doc/screenshots/screenshot.png)
-
-## Avertissements / informations importantes
-
-#### Multi-user support
-
-* LDAP and HTTP auth are not supported.
-* The app can be used by multiple users.
 
 ## Documentations et ressources
 

@@ -24,13 +24,6 @@ Script that checks whether your websites and servers are up and running
 
 ![Screenshot of PHP Server Monitor](./doc/screenshots/screenshot.png)
 
-## Disclaimers / important information
-
-#### Multi-user support
-
-* LDAP and HTTP auth are not supported.
-* The app can be used by multiple users.
-
 ## Documentation and resources
 
 * Official app website: <www.phpservermonitor.org>
