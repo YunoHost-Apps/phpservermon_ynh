@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # PHP Server Monitor for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/phpservermon.svg)](https://dash.yunohost.org/appci/app/phpservermon) ![Working status](https://ci-apps.yunohost.org/ci/badges/phpservermon.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phpservermon.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/phpservermon.svg)](https://dash.yunohost.org/appci/app/phpservermon) ![Working status](https://ci-apps.yunohost.org/ci/badges/phpservermon.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phpservermon.maintain.svg)
+
 [![Install PHP Server Monitor with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpservermon)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -18,7 +19,6 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Script that checks whether your websites and servers are up and running
 
 **Shipped version:** 3.5.2~ynh5
-
 
 ## Screenshots
 
@@ -34,7 +34,6 @@ Script that checks whether your websites and servers are up and running
 ## Documentation and resources
 
 * Official app website: <www.phpservermonitor.org>
-* Official user documentation: <https://yunohost.org/apps>
 * Official admin documentation: <http://docs.phpservermonitor.org/en/latest/>
 * Upstream app code repository: <https://github.com/phpservermon/phpservermon/>
 * YunoHost documentation for this app: <https://yunohost.org/app_phpservermon>
