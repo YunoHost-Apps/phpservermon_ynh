@@ -1,0 +1,1 @@
+Script that checks whether your websites and servers are up and running
