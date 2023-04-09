@@ -28,13 +28,12 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=1
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
-#=================================================
-# PHP-FPM CONFIGURATION
-#=================================================
-ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
-
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config --usage=low --footprint=low
+
+ynh_add_config --template="../conf/cron" --destination="/etc/cron.d/$app"
+chown root: "/etc/cron.d/$app"
+chmod 644 "/etc/cron.d/$app"
 
 #=================================================
 # MODIFY A CONFIG FILE
@@ -44,15 +43,6 @@ ynh_script_progression --message="Setuping a configuration file..." --weight=1
 ynh_add_config --template="../conf/config.php.sample" --destination="$install_dir/config.php"
 chmod 400 "$install_dir/config.php"
 chown $app "$install_dir/config.php"
-
-#=================================================
-# SETUP A CRON
-#=================================================
-ynh_script_progression --message="Setuping a cron..." --weight=1
-
-ynh_add_config --template="../conf/cron" --destination="/etc/cron.d/$app"
-chown root: "/etc/cron.d/$app"
-chmod 644 "/etc/cron.d/$app"
 
 #=================================================
 # END OF SCRIPT
