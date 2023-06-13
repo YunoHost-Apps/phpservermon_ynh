@@ -43,7 +43,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/phpservermon/phpservermon/releases/download/v3.5.2/phpservermon-3.5.2.tar.gz"
         sha256 = "8edc850aac341c8f0e9d3c95ba376f374195a3cf143d38c1603e7285aa43cc01"
-        in_subdir = false
+        in_subdir = true
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
