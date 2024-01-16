@@ -1,0 +1,72 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "phpservermon"
+name = "PHP Server Monitor"
+description.en = "Script that checks whether your websites and servers are up and running"
+description.fr = "Application pour vérifier que vos sites web et serveurs fonctionnent"
+
+version = "3.5.2~ynh6"
+
+maintainers = ["Benoit"]
+
+[upstream]
+license = "GPL-3.0-or-later"
+website = "https://www.phpservermonitor.org/"
+code = "https://github.com/phpservermon/phpservermon/"
+admindoc = "https://docs.phpservermonitor.org/en/latest/"
+fund = "https://github.com/sponsors/TimZ99"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/phpservermon"
+
+    [install.init_main_permission]
+    help.en = "If the app is not public, only YunoHost users will have access to it"
+    help.fr = "Si l'application n'est pas publique, seul les utilisateurs de YunoHost y auront accés"
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.sources.main]
+    url = "https://github.com/phpservermon/phpservermon/releases/download/v3.5.2/phpservermon-3.5.2.tar.gz"
+    sha256 = "8edc850aac341c8f0e9d3c95ba376f374195a3cf143d38c1603e7285aa43cc01"
+    in_subdir = 2 # Yes, 2 levels
+
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset = "tarball"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = [
+        "php7.4-fpm",
+        "php7.4-curl",
+        "php7.4-common",
+        "php7.4-json",
+        "php7.4-xml",
+        "mariadb-server"
+    ]
+
+    [resources.database]
+    type = "mysql"

@@ -1,5 +1,0 @@
-SOURCE_URL=https://github.com/phpservermon/phpservermon/releases/download/v3.5.2/phpservermon-3.5.2.tar.gz
-SOURCE_SUM=8edc850aac341c8f0e9d3c95ba376f374195a3cf143d38c1603e7285aa43cc01
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=2
