@@ -21,6 +21,8 @@ chmod 750 "$install_dir"
 chmod -R o-rwx "$install_dir"
 chown -R "$app:www-data" "$install_dir"
 
+ynh_exec_warn ls -lah "$install_dir"
+
 #=================================================
 # MODIFY A CONFIG FILE
 #=================================================
