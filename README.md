@@ -18,23 +18,15 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Script that checks whether your websites and servers are up and running
 
-**Shipped version:** 3.5.2~ynh5
+**Shipped version:** 3.5.2~ynh6
 
 ## Screenshots
 
 ![Screenshot of PHP Server Monitor](./doc/screenshots/screenshot.png)
 
-## Disclaimers / important information
-
-#### Multi-user support
-
-* LDAP and HTTP auth are not supported.
-* The app can be used by multiple users.
-
 ## Documentation and resources
 
-* Official app website: <www.phpservermonitor.org>
-* Official user documentation: <https://yunohost.org/apps>
+* Official app website: <http://www.phpservermonitor.org/>
 * Official admin documentation: <http://docs.phpservermonitor.org/en/latest/>
 * Upstream app code repository: <https://github.com/phpservermon/phpservermon/>
 * YunoHost Store: <https://apps.yunohost.org/app/phpservermon>

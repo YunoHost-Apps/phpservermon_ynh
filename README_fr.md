@@ -18,23 +18,15 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Application pour vérifier que vos sites web et serveurs fonctionnent
 
-**Version incluse :** 3.5.2~ynh5
+**Version incluse :** 3.5.2~ynh6
 
 ## Captures d’écran
 
 ![Capture d’écran de PHP Server Monitor](./doc/screenshots/screenshot.png)
 
-## Avertissements / informations importantes
-
-#### Support multi-utilisateur
-
-* L'application ne supporte pas le SSO/LDAP.
-* L'application peut être utilisées par plusieurs utilisateurs.
-
 ## Documentations et ressources
 
-* Site officiel de l’app : <www.phpservermonitor.org>
-* Documentation officielle utilisateur : <https://yunohost.org/apps>
+* Site officiel de l’app : <http://www.phpservermonitor.org/>
 * Documentation officielle de l’admin : <http://docs.phpservermonitor.org/en/latest/>
 * Dépôt de code officiel de l’app : <https://github.com/phpservermon/phpservermon/>
 * YunoHost Store: <https://apps.yunohost.org/app/phpservermon>
