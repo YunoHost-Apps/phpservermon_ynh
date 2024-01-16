@@ -4,10 +4,6 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="7.4"
-
-pkg_dependencies="php${YNH_PHP_VERSION}-curl php${YNH_PHP_VERSION}-common php${YNH_PHP_VERSION}-json php${YNH_PHP_VERSION}-xml"
-
 #=================================================
 # PERSONAL HELPERS
 #=================================================
