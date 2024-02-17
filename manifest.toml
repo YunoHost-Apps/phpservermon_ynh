@@ -7,7 +7,7 @@ name = "PHP Server Monitor"
 description.en = "Script that checks whether your websites and servers are up and running"
 description.fr = "Application pour vérifier que vos sites web et serveurs fonctionnent"
 
-version = "3.5.2~ynh6"
+version = "v3.5.2~ynh1"
 
 maintainers = ["Benoit"]
 
@@ -44,8 +44,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/phpservermon/phpservermon/releases/download/v3.5.2/phpservermon-3.5.2.tar.gz"
-    sha256 = "8edc850aac341c8f0e9d3c95ba376f374195a3cf143d38c1603e7285aa43cc01"
+    url = "https://github.com/phpservermon/phpservermon/archive/refs/tags/v3.5.2.tar.gz"
+    sha256 = "1daab5ff8eb07726e805f551017dcb0311990b0bddb5a49e01e257c0bd6f5a4c"
     in_subdir = 2 # Yes, 2 levels
 
     autoupdate.strategy = "latest_github_release"
