@@ -14,8 +14,8 @@ maintainers = ["Benoit"]
 [upstream]
 license = "GPL-3.0-or-later"
 website = "https://www.phpservermonitor.org/"
-code = "https://github.com/phpservermon/phpservermon/"
 admindoc = "https://docs.phpservermonitor.org/en/latest/"
+code = "https://github.com/phpservermon/phpservermon/"
 fund = "https://github.com/sponsors/TimZ99"
 
 [integration]
@@ -47,8 +47,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/phpservermon/phpservermon/releases/download/v3.5.2/phpservermon-3.5.2.tar.gz"
-    sha256 = "8edc850aac341c8f0e9d3c95ba376f374195a3cf143d38c1603e7285aa43cc01"
+    url = "https://github.com/phpservermon/phpservermon/archive/2f49271538e187d63c5cc97f7dfc937f935f9c62.tar.gz"
+    sha256 = "50fcf8c8d6bfc515cd800aaf3331b59aa92d01f3ed60589f9417e63f38f74652"
     in_subdir = 2 # Yes, 2 levels
 
     autoupdate.strategy = "latest_github_release"
@@ -64,11 +64,11 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "php7.4-fpm",
-        "php7.4-curl",
-        "php7.4-common",
-        "php7.4-json",
-        "php7.4-xml",
+        "php8.1-fpm",
+        "php8.1-curl",
+        "php8.1-common",
+        "php8.1-json",
+        "php8.1-xml",
         "mariadb-server"
     ]
 
