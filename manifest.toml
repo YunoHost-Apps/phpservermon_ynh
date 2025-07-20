@@ -64,11 +64,10 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "php8.1-fpm",
-        "php8.1-curl",
-        "php8.1-common",
-        "php8.1-json",
-        "php8.1-xml",
+        "php8.4-curl",
+        "php8.4-common",
+        "php8.4-json",
+        "php8.4-xml",
         "mariadb-server"
     ]
 
