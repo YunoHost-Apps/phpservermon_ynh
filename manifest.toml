@@ -66,7 +66,6 @@ ram.runtime = "50M"
     packages = [
         "php8.2-curl",
         "php8.2-common",
-        "php8.2-json",
         "php8.2-xml",
         "mariadb-server"
     ]
