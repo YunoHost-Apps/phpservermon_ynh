@@ -19,7 +19,7 @@ admindoc = "https://docs.phpservermonitor.org/en/latest/"
 fund = "https://github.com/sponsors/TimZ99"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.1.38"
 architectures = "all"
 multi_instance = true
 
